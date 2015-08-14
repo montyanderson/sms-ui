@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8" />
+        <title>sms-ui</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
+
+    </head>
+    <body>
+        <div class="container">
+            <section class="main jumbotron">
+                <h1>sms-ui</h1>
+
+                <div class="form-group">
+                    <label for="recipient">Recipient</label>
+                    <input class="form-control" id="recipient" placeholder="+447700900023" />
+                </div>
+
+                <div class="form-group">
+                    <label for="content">Content</label>
+                    <input class="form-control" id="content" placeholder="Hi, how're things?" />
+                </div>
+
+                <div class="form-group button-container">
+                    <button type="button" class="btn btn-danger btn-lg" id="send">Send</button>
+                </div>
+
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" id="response" placeholder="Response"></textarea>
+                </div>
+            </section>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
